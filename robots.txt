@@ -1,16 +1,11 @@
 User-agent: *
 Allow: /
 
-# Запрещаем служебные папки если появятся
-Disallow: /cgi-bin/
-Disallow: /tmp/
-
-# Карта сайта
-Sitemap: https://www.athos-guide.com/sitemap.xml
-
-# Для Яндекс и Google отдельно
 User-agent: Yandex
 Allow: /
 
 User-agent: Googlebot
 Allow: /
+
+Sitemap: https://www.athos-guide.com/sitemap.xml
+Host: https://www.athos-guide.com
